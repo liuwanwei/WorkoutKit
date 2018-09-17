@@ -1,0 +1,24 @@
+{
+    "types":[
+                {
+                    "objectId":0,
+                    "title":"徒手训练",
+                    "cover":"index_button_1",
+                    "configFile":"Workouts",
+                    "equipment":"无需任何器材",
+                    "detailsBundleFile":"type-hiit.txt",
+                    "headerImage":"hiit_intro_bg.jpg",
+                    "free":1
+                },
+                {
+                    "objectId":1,
+                    "title":"跳绳训练",
+                    "cover":"index_button_2",
+                    "configFile":"JumpRopeWorkouts",
+                    "equipment":"跳绳",
+                    "detailsBundleFile":"type-jump-rope.txt",
+                    "headerImage":"jump_rope_intro_bg.jpg",
+                    "free":1
+                }
+    ]
+}

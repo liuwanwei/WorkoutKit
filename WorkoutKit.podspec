@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WorkoutKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WorkoutKit.'
+  s.summary          = 'Mostly used in training Apps like 7 mins workout, and HIIT workout.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+In 7 Mins workout and HIIT workout Apps, we need same iCloud functions, this is why I created it.
                        DESC
 
-  s.homepage         = 'https://github.com/liuwanwei@gmail.com/WorkoutKit'
+  s.homepage         = 'https://github.com/liuwanwei/WorkoutKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuwanwei@gmail.com' => 'liuwanwei@gmail.com' }
@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency = 'DateTools', '~> 2.0.1'
+  s.dependency = 'FFGlobalAlertController'
 end
