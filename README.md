@@ -1,5 +1,7 @@
 # 使用说明
 
+CocoaPods library aims to replace BDWorkoutKit library.
+
 ## 初始化使用环境
 
 一般放在 App 启动时，didFinishLaunchingWithOptions 中调用：
