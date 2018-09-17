@@ -39,6 +39,6 @@ In 7 Mins workout and HIIT workout Apps, we need same iCloud functions, this is 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency = 'DateTools', '~> 2.0.1'
-  s.dependency = 'FFGlobalAlertController'
+  s.dependency 'DateTools'
+  s.dependency 'FFGlobalAlertController'
 end

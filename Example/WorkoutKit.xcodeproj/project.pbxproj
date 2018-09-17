@@ -359,10 +359,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WorkoutKit_Example/Pods-WorkoutKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DateTools/DateTools.framework",
+				"${BUILT_PRODUCTS_DIR}/FFGlobalAlertController/FFGlobalAlertController.framework",
 				"${BUILT_PRODUCTS_DIR}/WorkoutKit/WorkoutKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFGlobalAlertController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WorkoutKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
