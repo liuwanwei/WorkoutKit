@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WorkoutKit_Example' do
+  pod 'WorkoutKit', :path => '../'
+
+  target 'WorkoutKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
