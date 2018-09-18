@@ -1,5 +1,7 @@
 # 使用说明
 
+从 BDWorkoutKit 移植过来，使用 cocoapods 工具进行管理
+
 CocoaPods library aims to replace BDWorkoutKit library.
 
 ## 初始化使用环境
