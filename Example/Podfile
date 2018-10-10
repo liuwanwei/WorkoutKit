@@ -8,6 +8,6 @@ target 'WorkoutKit_Example' do
   target 'WorkoutKit_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    pod 'FBSnapshotTestCase/Core'
   end
 end

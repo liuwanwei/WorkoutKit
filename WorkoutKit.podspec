@@ -25,12 +25,12 @@ In 7 Mins workout and HIIT workout Apps, we need same iCloud functions, this is 
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuwanwei@gmail.com' => 'liuwanwei@gmail.com' }
-  s.source           = { :git => 'https://github.com/liuwanwei@gmail.com/WorkoutKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liuwanwei/WorkoutKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WorkoutKit/Classes/**/*'
+  s.source_files = 'WorkoutKit/Classes/*.{h,m}', 'WorkoutKit/Classes/**/{h,m}'
   
   # s.resource_bundles = {
   #   'WorkoutKit' => ['WorkoutKit/Assets/*.png']
@@ -38,7 +38,10 @@ In 7 Mins workout and HIIT workout Apps, we need same iCloud functions, this is 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'DateTools'
   s.dependency 'FFGlobalAlertController'
+  s.dependency 'BDBaseKit'
+  s.dependency 'TMCache'
+  s.dependency 'MJExtension'
+  s.dependency 'libextobjc'
 end

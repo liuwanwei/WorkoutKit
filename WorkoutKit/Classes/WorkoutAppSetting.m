@@ -12,8 +12,8 @@
 #import "WorkoutAppSetting.h"
 #import "WorkoutNotificationManager.h"
 #import "WorkoutPlanCache.h"
-#import <TMCache.h>
-#import <AutoCoding.h>
+#import "TMCache.h"
+#import "AutoCoding.h"
 
 static NSString * const AppSettingKey = @"AppSettingKey";
 

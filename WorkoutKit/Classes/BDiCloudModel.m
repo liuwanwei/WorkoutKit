@@ -7,6 +7,7 @@
 //
 
 #import "BDiCloudModel.h"
+#import "BaseModel.h"
 #import <objc/runtime.h>
 
 // 绑定 self 指针到 CKRecord 对象上用到的键值

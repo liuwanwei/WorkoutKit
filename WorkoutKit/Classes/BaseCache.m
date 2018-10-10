@@ -10,8 +10,8 @@
 #import "BDiCloudManager.h"
 #import "WorkoutAppSetting.h"
 #import "BDiCloudModel.h"
-#import <TMCache.h>
-#import <EXTScope.h>
+#import "TMCache.h"
+#import "EXTScope.h"
 
 @implementation BaseCache{
     // 内存对象存储位置（外部接口不要访问）

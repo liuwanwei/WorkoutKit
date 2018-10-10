@@ -13,8 +13,8 @@
 #import "BDiCloudManager.h"
 #import "WorkoutPlan.h"
 #import <CloudKit/CloudKit.h>
-#import <TMCache.h>
-#import <EXTScope.h>
+#import "TMCache.h"
+//#import <EXTScope.h>
 
 // iCloud 中使用的训练单元存储类型
 static NSString * const RecordTypeWorkoutUnit = @"WorkoutUnit";

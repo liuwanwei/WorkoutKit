@@ -7,7 +7,7 @@
 //
 
 #import "HistoryModel.h"
-#import "WorkoutResult.h"
+#import "../WorkoutResult.h"
 #import "WorkoutResultCache.h"
 #import "NSDate+DateTools.h"
 

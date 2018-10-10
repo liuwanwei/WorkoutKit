@@ -9,9 +9,9 @@
 #import "BDiCloudManager.h"
 #import "WorkoutResult.h"
 #import "WorkoutAppSetting.h"
-#import "categories/UIAlertController+Window.h"
 #import "CacheManager.h"
-#import <EXTScope.h>
+#import "EXTScope.h"
+#import "UIAlertController+Window.h"
 
 static NSString * const AllRecords = @"TRUEPREDICATE";
 
@@ -207,7 +207,7 @@ static NSString * iCloudTokenKey = @"cn.buddysoft.hiitrope.UbiquityIdentityToken
 /**
  *  将新的训练结果保存到 iCloud 中去
  *
- *  @param result WorkoutResult object
+ *  @param record WorkoutResult object
  */
 - (void)addRecord:(CKRecord *)record{
     [self finalAddRecord:record];

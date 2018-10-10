@@ -98,9 +98,9 @@ static NSString * const TotalNumber = @"totalNumber";
         }
         NSString * str;
         if (self.groupNumber) {
-            str = [NSString stringWithFormat:@"，用时 %ld 分钟",mintue];
+            str = [NSString stringWithFormat:@"，用时 %ld 分钟",(long)mintue];
         }else {
-            str = [NSString stringWithFormat:@"用时 %ld 分钟",mintue];
+            str = [NSString stringWithFormat:@"用时 %ld 分钟",(long)mintue];
         }
         
         descStr = [descStr stringByAppendingString:str];

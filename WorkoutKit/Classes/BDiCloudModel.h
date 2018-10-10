@@ -6,8 +6,10 @@
 //  Copyright © 2016年 maoyu. All rights reserved.
 //
 
-#import "BaseModel.h"
 #import <CloudKit/CloudKit.h>
+#import <BDBaseKit/BaseModel.h>
+
+//@class BaseModel;
 
 @interface BDiCloudModel : BaseModel
 

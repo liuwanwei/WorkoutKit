@@ -8,8 +8,8 @@
 
 #import "WorkoutResultCache.h"
 #import "WorkoutResult.h"
-#import <TMCache.h>
-#import <EXTScope.h>
+#import "TMCache.h"
+//#import <EXTScope.h>
 
 // iCloud 中使用的存储类型
 static NSString * const RecordTypeWorkoutResult = @"WorkoutResult";

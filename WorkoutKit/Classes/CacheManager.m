@@ -11,8 +11,8 @@
 #import "WorkoutPlanCache.h"
 #import "WorkoutUnitCache.h"
 #import "WorkoutResultCache.h"
-#import "categories/UIAlertController+Window.h"
-#import <EXTScope.h>
+#import "UIAlertController+Window.h"
+#import "EXTScope.h"
 
 @implementation CacheManager
 

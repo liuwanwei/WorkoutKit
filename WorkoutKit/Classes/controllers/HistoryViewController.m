@@ -8,7 +8,7 @@
 
 #import "HistoryViewController.h"
 #import "HistoryCell.h"
-#import "WorkoutResult.h"
+#import "../WorkoutResult.h"
 #import "UIColor+Workout.h"
 #import "HistoryModel.h"
 

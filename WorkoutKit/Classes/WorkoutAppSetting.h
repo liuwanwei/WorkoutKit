@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BDFoundation.h"
+#import <BDBaseKit/BaseModel.h>
+
 
 // 提示音类型
 typedef enum{
@@ -20,7 +21,6 @@ typedef enum{
 	MainColorTypeOrange = 0,
 	MainColorTypeBlue = 1
 }MainColorType;
-
 
 @interface WorkoutAppSetting : BaseModel
 

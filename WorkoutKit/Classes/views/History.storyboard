@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,8 +14,8 @@
             <objects>
                 <viewController storyboardIdentifier="HistoryVC" id="42S-1n-x3h" customClass="HistoryViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="C2Z-f0-H9t"/>
-                        <viewControllerLayoutGuide type="bottom" id="AcE-ng-SVI"/>
+                        <viewControllerLayoutGuide type="top" id="29j-lP-aTc"/>
+                        <viewControllerLayoutGuide type="bottom" id="gwo-SR-AJA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="K9d-eo-Ur0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -98,15 +97,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="nAb-kC-eOW" firstAttribute="top" secondItem="C2Z-f0-H9t" secondAttribute="bottom" id="9Vt-Lm-79h"/>
+                            <constraint firstItem="nAb-kC-eOW" firstAttribute="top" secondItem="29j-lP-aTc" secondAttribute="bottom" id="9Vt-Lm-79h"/>
                             <constraint firstAttribute="trailing" secondItem="nAb-kC-eOW" secondAttribute="trailing" id="V7v-zP-E9C"/>
                             <constraint firstItem="kal-3c-nx9" firstAttribute="leading" secondItem="K9d-eo-Ur0" secondAttribute="leading" id="Xo6-I9-b3b"/>
                             <constraint firstItem="kal-3c-nx9" firstAttribute="width" secondItem="K9d-eo-Ur0" secondAttribute="width" id="g6d-kS-F6a"/>
                             <constraint firstItem="kal-3c-nx9" firstAttribute="top" secondItem="nAb-kC-eOW" secondAttribute="bottom" id="huh-bP-ecX"/>
                             <constraint firstItem="nAb-kC-eOW" firstAttribute="leading" secondItem="K9d-eo-Ur0" secondAttribute="leading" id="ugE-Rl-l77"/>
-                            <constraint firstItem="AcE-ng-SVI" firstAttribute="top" secondItem="kal-3c-nx9" secondAttribute="bottom" id="yjH-X8-84S"/>
+                            <constraint firstItem="gwo-SR-AJA" firstAttribute="top" secondItem="kal-3c-nx9" secondAttribute="bottom" id="yjH-X8-84S"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="tYU-DF-5UJ"/>
                     </view>
                     <connections>
                         <outlet property="tableView" destination="kal-3c-nx9" id="RtR-Um-gEw"/>

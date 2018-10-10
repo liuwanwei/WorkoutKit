@@ -100,9 +100,9 @@ static NSString * const HeaderImage = @"headerImage";
 - (NSString *)longDescription{
     NSString * desc = [NSString stringWithFormat:@"训练类型: %@", [self typeDescription]];
     desc = [desc stringByAppendingFormat:@"\n训练时间: %ld 秒", (long)_workoutTimeLength];
-    desc = [desc stringByAppendingFormat:@"\n休息时间: %ld 秒", _restTimeLength];
-    desc = [desc stringByAppendingFormat:@"\n训练组数: %ld 组", _groupNumber];
-    desc = [desc stringByAppendingFormat:@"\n训练次数: %ld 次", _exerciseNumber];
+    desc = [desc stringByAppendingFormat:@"\n休息时间: %ld 秒", (long)_restTimeLength];
+    desc = [desc stringByAppendingFormat:@"\n训练组数: %ld 组", (long)_groupNumber];
+    desc = [desc stringByAppendingFormat:@"\n训练次数: %ld 次", (long)_exerciseNumber];
     return desc;
 }
 

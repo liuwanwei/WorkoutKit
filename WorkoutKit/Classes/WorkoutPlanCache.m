@@ -13,10 +13,10 @@
 #import "BDiCloudManager.h"
 #import "BDFoundation.h"
 #import "WorkoutUnit.h"
-#import <MJExtension.h>
+#import "MJExtension.h"
 #import <CloudKit/CloudKit.h>
-#import <TMCache.h>
-#import <EXTScope.h>
+#import "TMCache.h"
+#import "EXTScope.h"
 
 // iCloud 中使用的存储类型
 static NSString * const RecordTypeWorkoutPlan = @"WorkoutPlan";
@@ -45,7 +45,7 @@ static NSInteger MAX_BUILTIN_PLAN_ID = 10;
     NSDictionary * rootDict = [BDUtils loadJsonFileFromBundel:@"HiitTypes"];
     if (rootDict) {
         NSArray * dicts = rootDict[@"types"];
-        return [WorkoutPlan objectArrayWithKeyValuesArray:dicts];
+        return [WorkoutPlan mj_objectArrayWithKeyValuesArray:dicts];
     }else{
         return nil;
     }
@@ -71,7 +71,7 @@ static NSInteger MAX_BUILTIN_PLAN_ID = 10;
                 NSDictionary * rootDict = [BDUtils loadJsonFileFromBundel:_currentWorkoutPlan.configFile];
                 if (rootDict) {
                     NSArray * dicts = rootDict[@"workouts"];
-                    _workoutUnits = [WorkoutUnit objectArrayWithKeyValuesArray:dicts];
+                    _workoutUnits = [WorkoutUnit mj_objectArrayWithKeyValuesArray:dicts];
                 }
                 [self postNotification];
                 return;
