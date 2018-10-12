@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WorkoutKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Mostly used in training Apps like 7 mins workout, and HIIT workout.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ In 7 Mins workout and HIIT workout Apps, we need same iCloud functions, this is 
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WorkoutKit/Classes/*.{h,m}', 'WorkoutKit/Classes/**/{h,m}'
+  s.source_files = 'WorkoutKit/Classes/*.{h,m}', 'WorkoutKit/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'WorkoutKit' => ['WorkoutKit/Assets/*.png']
