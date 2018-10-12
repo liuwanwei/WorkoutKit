@@ -35,8 +35,8 @@
     _results = _model.results;
     
     self.topView.backgroundColor = [UIColor mainColor];
-    self.totalLabel.text = [NSString stringWithFormat:@"%lu", [_model totalResultCount]];
-    self.weekTotalLabel.text = [NSString stringWithFormat:@"%lu", [_model resultCountForThisWeek]];
+    self.totalLabel.text = [NSString stringWithFormat:@"%ld", (long)[_model totalResultCount]];
+    self.weekTotalLabel.text = [NSString stringWithFormat:@"%ld", (long)[_model resultCountForThisWeek]];
     
     [self.tableView registerClass:[HistoryCell class] forCellReuseIdentifier:@"HistoryCell"];
 }

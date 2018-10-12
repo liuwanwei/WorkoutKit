@@ -7,9 +7,8 @@
 //
 
 #import "UIColor+Workout.h"
-//#import "BDFoundation.h"
 #import "TMCache.h"
-//#import <Colours.h>
+#import <BDBaseKit/Macro.h>
 
 static NSString * const kSchemaKey = @"schemaKey";
 
