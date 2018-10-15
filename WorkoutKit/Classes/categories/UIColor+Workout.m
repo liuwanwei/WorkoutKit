@@ -32,6 +32,7 @@ static dispatch_once_t sOnceToken = 0;
 }
 
 + (void)setSchema:(TrainingColorSchema)schema{
+    sSchema = schema;
     [[TMDiskCache sharedCache] setObject:@(schema) forKey:kSchemaKey];
 }
 
