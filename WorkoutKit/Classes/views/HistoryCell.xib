@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment version="2304" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,49 +22,51 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HistoryCell" id="KGk-i7-Jjw" customClass="HistoryCell">
             <rect key="frame" x="0.0" y="0.0" width="320" height="108"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="107.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gCW-uG-N8i">
-                        <rect key="frame" x="8" y="4" width="304" height="99.5"/>
+                        <rect key="frame" x="8" y="4" width="304" height="96"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Scm-Es-exZ" userLabel="circular">
-                                <rect key="frame" x="18" y="18" width="12" height="12"/>
+                                <rect key="frame" x="16" y="18" width="8" height="8"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="12" id="SRg-kC-Hon"/>
+                                    <constraint firstAttribute="width" constant="8" id="SRg-kC-Hon"/>
                                     <constraint firstAttribute="width" secondItem="Scm-Es-exZ" secondAttribute="height" multiplier="1:1" id="YKJ-xu-T1F"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="锻炼 16 组动作，用时 31 分钟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fY-Oj-cjz">
-                                <rect key="frame" x="47" y="65.5" width="214" height="19.5"/>
+                                <rect key="frame" x="40" y="60.5" width="214" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.30980392159999998" green="0.34901960780000002" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017 03.26 18：13" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWf-BQ-mpn">
-                                <rect key="frame" x="175" y="15.5" width="121" height="17"/>
+                                <rect key="frame" x="175" y="13.5" width="121" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.30980392159999998" green="0.34901960780000002" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三头肌坚持" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUK-hT-o5V">
-                                <rect key="frame" x="47" y="13" width="92" height="22"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <rect key="frame" x="40" y="16" width="92" height="12"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <color key="textColor" red="0.30980392159999998" green="0.34901960780000002" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Scm-Es-exZ" firstAttribute="leading" secondItem="gCW-uG-N8i" secondAttribute="leading" constant="18" id="FLF-hk-H1y"/>
+                            <constraint firstAttribute="height" constant="96" id="6Tf-TY-AHn"/>
+                            <constraint firstItem="Scm-Es-exZ" firstAttribute="leading" secondItem="gCW-uG-N8i" secondAttribute="leading" constant="16" id="FLF-hk-H1y"/>
                             <constraint firstItem="1fY-Oj-cjz" firstAttribute="leading" secondItem="HUK-hT-o5V" secondAttribute="leading" id="Gc6-fQ-Muv"/>
-                            <constraint firstItem="HUK-hT-o5V" firstAttribute="centerY" secondItem="Scm-Es-exZ" secondAttribute="centerY" id="dRw-j2-kcJ"/>
-                            <constraint firstItem="HUK-hT-o5V" firstAttribute="leading" secondItem="Scm-Es-exZ" secondAttribute="trailing" constant="17" id="dd9-Fd-Eb3"/>
+                            <constraint firstItem="Scm-Es-exZ" firstAttribute="centerY" secondItem="HUK-hT-o5V" secondAttribute="centerY" id="V1t-RK-7J3"/>
+                            <constraint firstItem="HUK-hT-o5V" firstAttribute="top" secondItem="gCW-uG-N8i" secondAttribute="top" constant="16" id="bho-RR-bqy"/>
+                            <constraint firstItem="HUK-hT-o5V" firstAttribute="leading" secondItem="Scm-Es-exZ" secondAttribute="trailing" constant="16" id="dd9-Fd-Eb3"/>
                             <constraint firstItem="EWf-BQ-mpn" firstAttribute="centerY" secondItem="HUK-hT-o5V" secondAttribute="centerY" id="gYx-xS-4gH"/>
                             <constraint firstItem="Scm-Es-exZ" firstAttribute="top" secondItem="gCW-uG-N8i" secondAttribute="top" constant="18" id="jBo-EA-hPz"/>
-                            <constraint firstAttribute="bottom" secondItem="1fY-Oj-cjz" secondAttribute="bottom" constant="14.5" id="ktm-dW-9Vc"/>
+                            <constraint firstAttribute="bottom" secondItem="1fY-Oj-cjz" secondAttribute="bottom" constant="16" id="ktm-dW-9Vc"/>
                         </constraints>
                     </view>
                 </subviews>
