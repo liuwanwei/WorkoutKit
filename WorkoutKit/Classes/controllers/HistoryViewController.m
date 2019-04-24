@@ -34,7 +34,9 @@
     _model = [[HistoryModel alloc] init];
     _results = _model.results;
     
-    self.topView.backgroundColor = [UIColor mainColor];
+//    self.topView.backgroundColor = [UIColor mainColor];
+    self.totalLabel.textColor = [UIColor mainColor];
+    self.weekTotalLabel.textColor = [UIColor mainColor];
     self.totalLabel.text = [NSString stringWithFormat:@"%ld", (long)[_model totalResultCount]];
     self.weekTotalLabel.text = [NSString stringWithFormat:@"%ld", (long)[_model resultCountForThisWeek]];
     

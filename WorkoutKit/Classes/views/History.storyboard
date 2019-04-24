@@ -23,7 +23,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8iL-K7-uG6">
                                 <rect key="frame" x="0.0" y="84" width="375" height="583"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="GaS-iE-6Pt">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -106,6 +106,12 @@
                             <constraint firstItem="gwo-SR-AJA" firstAttribute="top" secondItem="8iL-K7-uG6" secondAttribute="bottom" id="vC1-t1-775"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="8iL-K7-uG6" id="7ez-Lw-r6t"/>
+                        <outlet property="topView" destination="8iL-K7-uG6" id="oRB-eS-v9Z"/>
+                        <outlet property="totalLabel" destination="JVO-xb-DEl" id="FIg-Dh-0g7"/>
+                        <outlet property="weekTotalLabel" destination="IaD-7h-RkZ" id="kJm-Tq-MhX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hH5-uj-Wup" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
