@@ -15,6 +15,7 @@ static NSString * const WorkoutTimeLength = @"workoutTimeLength";
 static NSString * const RestTimeLength = @"RestTimeLength";
 static NSString * const ExerciseNumber = @"ExerciseNumber";
 static NSString * const WorkoutPlanId = @"workoutPlanId";
+static NSString * const ProfileBundleImage = @"profileBundleImage";
 
 
 @implementation WorkoutUnit
@@ -27,6 +28,7 @@ static NSString * const WorkoutPlanId = @"workoutPlanId";
         _restTimeLength = [record objectForKey:RestTimeLength];
         _exerciseNumber = [record objectForKey:ExerciseNumber];
         _workoutPlanId = [record objectForKey:WorkoutPlanId];
+        _profileBundleImage = [record objectForKey:ProfileBundleImage];
     }
 
     return self;
@@ -89,6 +91,7 @@ static NSString * const WorkoutPlanId = @"workoutPlanId";
     [record setObject:self.restTimeLength forKey:RestTimeLength];
     [record setObject:self.exerciseNumber forKey:ExerciseNumber];
     [record setObject:self.workoutPlanId forKey:WorkoutPlanId];
+    [record setObject:self.profileBundleImage forKey:ProfileBundleImage];
 }
 
 @end
